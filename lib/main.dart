@@ -68,13 +68,13 @@ class _BMIState extends State<BMI> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text(
           'BMI CALCULATOR',
-          textAlign: TextAlign.center,
           style: TextStyle(
             fontStyle: FontStyle.italic,
             fontWeight: FontWeight.bold,
-            letterSpacing: 4,
+            // letterSpacing: 4,
           ),
         ),
       ),
